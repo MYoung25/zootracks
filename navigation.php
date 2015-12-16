@@ -61,5 +61,8 @@ echo "<link rel='stylesheet' type='text/css' href='styles.css'>";
         echo "<li><a href='zoo_logout.php'>Sign Out</a></li> ";
     }
 ?>
+    <li>
+        Testing Git
+    </li>
 </ul>
     </div>
