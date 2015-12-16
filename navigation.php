@@ -62,7 +62,7 @@ echo "<link rel='stylesheet' type='text/css' href='styles.css'>";
     }
 ?>
     <li>
-        Testing Git
+        Git is working now
     </li>
 </ul>
     </div>
