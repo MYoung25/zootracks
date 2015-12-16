@@ -1,0 +1,343 @@
+.display_data:nth-child(even) {
+    background: #C6EE9A;
+    color: black;
+    border: 0px;
+}
+
+.display_data:nth-child(odd) {
+    background: #527736;
+    color: #FFF;
+    border: 0px;
+}
+
+a {
+    color: #FFF;
+}
+
+a:visited {
+    color: #FFF;
+}
+
+.display_data:nth-child(even) a{
+    color:black;
+}
+.display_data:nth-child(even) a:visited{
+     color:black;
+ }
+
+
+
+#search_container {
+    width: 250px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+}
+
+#search {
+    margin: auto;
+    margin-top: -50px;
+}
+
+#navigation {
+    margin: auto;
+    width: 80%;
+    background: #f59331;
+}
+
+#identity {
+    font-size: 16pt;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-shadow: 2px 2px 4px #000;
+    font-family: "Open Sans",sans-serif;
+}
+
+.table {
+    font-family: "Open Sans",sans-serif;
+}
+
+th {
+     background: #054714;
+     color: #FFFFFF;
+     border: 0px solid;
+ }
+
+body {
+    background-color: #81bd41;
+    width: 1175px;
+    margin: auto;
+    font-family: "Open Sans",sans-serif;
+
+}
+
+.site-header-inner {
+    border-bottom: 3px solid #d9dcdd;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("http://cincinnatizoo.org/wp-content/uploads/2014/03/header21.jpg");
+    border-bottom: medium none;
+    border-radius: 8px;
+    max-width: 1125px;
+    min-height: 175px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#main-menu
+{
+    position: absolute;
+    top: 165px;
+    list-style: outside none none;
+    background-color: #004811;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    max-width: 1085px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#main-menu li
+{
+    display: inline-block;
+}
+
+#main-menu li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 28px 18px 7px 10px;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    margin-top: 5px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+input {
+    font-family: "Open Sans",sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans",sans-serif;
+}
+
+#favorites_container {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    background: #C6EE9A;
+}
+
+.title{
+    width: 20%;
+}
+
+.genre{
+    width: 10%;
+}
+
+.tag{
+
+}
+
+.favorite{
+
+}
+
+#sign{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    margin-top: 50px;
+    /*border: thin solid black;*/
+    box-shadow: 0px 0px 10px 4px #000000;
+    background: #C6EE9A;
+    border-radius: 8px;
+
+}
+
+#search_button {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#details_container {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    background: #C6EE9A;
+    box-shadow: 0px 0px 10px 4px #000000;
+}
+
+.header_container {
+    margin: auto;
+}
+
+#results_container {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    background: #C6EE9A;
+}
+
+/*#edit_container {*/
+    /*width: 250px;*/
+    /*height: auto;*/
+    /*border-radius: 8px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*box-shadow: 0px 0px 10px 4px #000000;*/
+    /*background: #C6EE9A;*/
+/*}*/
+
+#edit_container {
+    width: 500px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#insert_container {
+    width: 400px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#add_container {
+     width: 250px;
+     height: auto;
+     background: #C6EE9A;
+     margin: auto;
+     border-color: #000;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px 4px #000000;
+     font-family: "Open Sans",sans-serif;
+     margin-top: 50px;
+     text-align: center;
+ }
+
+#delete_container {
+    width: 250px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#about_container {
+    width: 800px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+}
+
+p {
+    text-indent: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sign_success_container {
+    width: 400px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#sign_success_container a:visited {
+    color: #000;
+}
+
+#logout_container {
+    width: 250px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#project_summary {
+    width: 800px;
+    height: auto;
+    background: #C6EE9A;
+    margin: auto;
+    border-color: #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px #000000;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 50px;
+    text-align: left;
+}

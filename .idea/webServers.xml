@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28f3a324-26b0-4ba7-b8d8-ce8a047973af" name="zootracks" url="http://zootracks.org">
+        <fileTransfer host="zootracks.org" port="21" password="dfc7dfd3dfebdfc9dfdedfc3dfc5dfc4dfd9df9bdf84df9a" username="zootracks">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
