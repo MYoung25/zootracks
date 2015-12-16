@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="zootracks">
+  <component name="PublishConfigData" autoUpload="Always" serverName="zootracks" uploadOnCheckin="28f3a324-26b0-4ba7-b8d8-ce8a047973af">
     <serverData>
       <paths name="zootracks">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="zootracks" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
